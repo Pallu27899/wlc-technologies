@@ -1,36 +1,32 @@
 # wlc-technologies
 
 
-<?php
-// Your code here!
-/* 
+# BurgerKing Profit Calculation Program
 
-Burgerking sells three items: 
-VegBurger which needs 2 breads & 1 veg pattice
-NonVegBurger which needs 2 breads & 1 non-veg pattice
-TikkiBurger which needs 2 breads & 1 tikki pattice
+This program calculates the maximum possible profit for BurgerKing based on the given inputs. It considers the quantity of bread, veg pattice, non-veg pattice, and tikki pattice, along with the price of each item. The program aims to determine the best combination of burgers to maximize profit, considering the availability of bread.
 
-Given bread quantity, veg pattice quantity, non-veg pattice quantity, tikki pattice quantity & price of all 3 items
+## Program Inputs
 
-Print the total maximum possible profit by making all possible items based on bread availability 
+- Bread Quantity: 15
+- Veg Pattice Quantity: 3
+- Non-Veg Pattice Quantity: 2
+- Tikki Pattice Quantity: 1
+- Price of Veg Burger: $100
+- Price of Non-Veg Burger: $125
+- Price of Tikki Burger: $112
 
-Also, test for all inputs, we would change all the values while testing, the quantity values as well as price
+## Program Output
 
-And program has to be optimal with respect to time & space complexity
+The program will print the total maximum possible profit that can be achieved by making all possible items based on the availability of bread.
 
-*/
+## Testing
 
-$breads = 15;
-$vegPattice = 3;
-$nonVegPattice = 2;
-$TikkiPattice = 1;
-$priceVegBurger = 100;
-$priceNonVegBurger = 125;
-$priceTikkiBurger = 112;
+The program is designed to handle different input values for quantity and price. You can modify the input values and test the program's output with various scenarios.
 
-$maxProfit = 0;
+## Optimization
+
+The program is implemented to be optimal in terms of time and space complexity, ensuring efficient execution and resource utilization.
 
 
-?>
 
 
